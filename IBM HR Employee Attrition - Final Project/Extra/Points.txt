@@ -1,0 +1,46 @@
+IBM
+
+Rows -> 2~1471
+About 50 variables(One Hot Encoding)
+
+Scaling
+	Age
+	Salary
+	Year at company
+	Others
+
+One hot encoding
+	BusinessTravel
+	Department
+	EducationField
+	Gender
+	JobRole
+	MaritalStatus
+	OverTime
+
+Training Set = 1176 -> 3:1178
+Testing Set = 294 -> 3:296
+
+ROC Curve -> Found min and max predictions and gave a point-one incrementation
+Insights(Graphs)
+Success Rate
+
+From data, attrition: yes = 237, no = 1233
+Years at the company had the most weight
+
+Education 1 'Below College' 2 'College' 3 'Bachelor' 4 'Master' 5 'Doctor'
+
+EnvironmentSatisfaction 1 'Low' 2 'Medium' 3 'High' 4 'Very High'
+
+JobInvolvement 
+1 'Low' 2 'Medium' 3 'High' 4 'Very High'
+
+JobSatisfaction 1 'Low' 2 'Medium' 3 'High' 4 'Very High'
+
+PerformanceRating 
+1 'Low' 2 'Good' 3 'Excellent' 4 'Outstanding'
+
+RelationshipSatisfaction 
+1 'Low' 2 'Medium' 3 'High' 4 'Very High'
+
+WorkLifeBalance 1 'Bad' 2 'Good' 3 'Better' 4 'Best'

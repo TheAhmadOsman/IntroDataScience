@@ -1,0 +1,6 @@
+Solver
+	Objective function - min/max of something
+	Variables -> values solver can change
+	Constraints
+
+The filter from the Data menu to see people based on columns' certain value

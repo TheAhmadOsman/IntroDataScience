@@ -1,0 +1,23 @@
+Clustering
+	-Variables to measure
+
+Images put together - Numbers 6 and 8 -> Search hand writing
+	-row -sample/instance
+	-Decent number of variables
+
+Find a data set
+
+K-means clustering assignment
+
+-------------------------------------------------------------
+
+Bayesian Classification
+	1-Spam Detection
+	2-Sentiment Analysiis <= Twitter
+		Positive or Negative
+		Trump's Speech
+	3-Sample
+		Tweets
+		Emails
+		ETC
+	4-

@@ -1,0 +1,5 @@
+Look at the pictures
+
+If the r-squared is pretty close to one, then we are fine and the model is good!
+
+Excel has all those formulas implemented(the formulas are in the pictures)

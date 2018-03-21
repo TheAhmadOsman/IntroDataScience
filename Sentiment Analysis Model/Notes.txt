@@ -1,0 +1,11 @@
+Copy words from positive and negative
+Remove duplicates
+Match and Index the word in Pivot table
+
+positive = IFERROR(INDEX(PositivePivot!B4:B2889, MATCH(A2, PositvePivot!A4:A2889,0)), 0) <- Use dollar signs
+negative = IFERROR(INDEX(NegativePivot!B4:B2889, MATCH(A2, NegativePivot!A4:A2889,0)), 0) <- Use dollar signs
+
+P(w|pos)
+P(w|neg)
+
+You need to choose either +1, 1 for the indexing for +-ve or to use if statements

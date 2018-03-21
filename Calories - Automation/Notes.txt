@@ -1,0 +1,7 @@
+COUNTIF
+SUMIF
+
+MATCH - Search where a value happened
+INDEX - Array, row-num -> gives value
+
+SheetName!B2:B16

@@ -1,0 +1,59 @@
+Model Classification can be done through probabilities of xiing words of frequencies
+We will treat this as Supervised learning activity
+
+Raw Data
+	Cleanup Data 
+		Cleanup for "#", ".", ";", """, "?"
+	We have to tell the difference between "Thanks for nothing" and "Thanks!!" and "Thanks."
+		CAPITALIZED
+	For now we wanna make everything uniform, just plain simple small letters, maybe v2 can have that other distinguishing between THANKS and Thanks and thanks
+	Split data after cleaning up into training set and test set.
+	With the training set, breakup the tweets into individual words.
+	Building our model (Summarize into a table like the one above for sentiments)
+	Using pivot table to create the table up 
+
+lower() -> coverts everything to lower
+upper() -> the other way
+
+We do search and replace for cleanup things with empty strings
+
+substitute(place, "'", "") -> replace in x, y with z
+
+We can do a gigantic list of symbols and keep doing that to clear the data -> We just copy it and go down
+Copy the values(paste special) from the cleanup sheet then
+We should randomize for training set and test set
+
+find(" ", sentence) -> Returns the position of the text - in this case the space
+You have to do this for each word, meaning finding the average amount of words in a tweet and duplicating number of rows for that amount of avg words per sentance
+=FIND(" ", A2, B1 + 1) -> if the position is 7, start from 8
+
+This is to find the spaces after words
+
+MID(text, character position, the amount of characters)
+
+IFERROR(FIND(), LEN(Sententnce)) to include the last word
+
+You need to know the length of words, therfore you can get rid of the most common words
+
+TRIM(TEXT) takes out the white characters
+
+Quiz: Match, Index, Solver Problem, Cleanup Text
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sentiment Analysis or Classification
+	To create a model to classify text as positive or negative
+
+1-Get Data
+2-Clean up the data
+3-Split data into training and test sets
+4-Build the model
+
+Columns
+Words - Positive - Negative
+# word appeared in both positive and negative tweets -> To use probability
+
+Use pivot table to count words
+
+Cleanup the data, split into training and testing sets, and have a pivot table, positive tweets, negative tweets
+	The training has to be dividied into positives and negatives -> Make it a number of rows multiplied by 20(average words per tweet)

@@ -1,0 +1,38 @@
+Machine Learning Algorithms
+	K-means Clustering
+		-Unsupervised Algorithm -> Data are generated
+	-Supervised Learning Algorithm -> Know the answer and teach the machine to see these data
+
+	The input for any of these algorithms is a row of data -> Refered to as a vector
+
+	The what the algorithm works is putting people into clusters by finding similiarities between them
+
+In the excel sheet, the x and y can be anything!
+
+Divide the graph into two parts(clusters) -> Look for Centroids
+	Representing two different clusters -> The centroids are in the middle of the clusters
+	Centroids -> It's gonna be the average for the cluser
+
+	We use the Solver!
+		Objective Function: minimize the distance from points to centeroids
+		Constraints: 2 centroids
+		Variables: X-centroid1, Y-centroid1
+				   X-centroid2, Y-centroid2
+
+	Lets assume the 8,2 and 2,10 are found on the graph to be the centroids -> The machine is just randomly telling you based on the objective
+
+	Lets say we wanna find the distance from (8,2) to (5,7): we use Pythegarean Theorem
+
+	a^2 + b^2 = c^2
+	c = sqrt(a^2 + b^2)
+
+	a = x2 - x1
+	b = y2 - y1
+
+	=SQRT(SUMSQ(A2:B2-I2:J2)) -> x:y-x:y-x:y
+
+IRIS Workbook
+
+Get Data -> Explore the data Graphically -> Cleaning the data(Outliers, wrong values, etc) -> Create a training set(80% of our data) and a test set(20% of our data) -> Train a model(Figuring out what our 3 centroids are) -> Test the model on the test set -> Goes back to training model in a loop
+
+We want randomly select 80% of the data for the training set and 20% for the testing set

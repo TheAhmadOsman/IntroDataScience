@@ -1,0 +1,15 @@
+Summarize (Data) -> Functions
+	Compute total - sum
+	Average
+	Maximum
+	Minimum
+
+Excel Terms
+	Overall file: workbook
+	Within a workbook, you can have spreadsheets
+	Rows, Columns and Cells
+	Cells can contain Data or Formula
+	Each cell has an address(Column D, Row 13: D13)
+	Two kinds of addresses: Changeable and Absolute
+	Absolute address $D$13
+	Include in the formula: D13:D20 -> B3:E10 is everything included

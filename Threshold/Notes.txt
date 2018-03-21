@@ -1,0 +1,31 @@
+Four Measures to find the Threshhold:
+	1-Precision
+	2-Specificity
+	3-False Positive Rate
+	4-Sensitivity/Recall/True Positive Rate
+
+Precision
+	#Predictions >= Threshold AND
+		#Where Actual value is 1
+			Divided by #predictions >= Threshold
+
+Sensitivity(TPR; True Positive Rate)
+	#Predictions >- Threshold AND
+		#Where Actual Value = 1
+			Divided by #Actual 1's
+
+Specificity(TNR; True Negative Rate)
+	#Predictions < Threshold AND
+		#Where Actual value is 0
+			Divided by #Actual 0's
+
+FPR; False Positive Rate
+	1 - TNR
+
+People end up focusing on FPR and TPR
+
+RCO Curve -> FPR and TPR
+
+To find the threshold: When dealing with predicted data -> Find the Min and the Max
+	Max - Min(number of points on the RCO curve you wanna get) -> (Max-Min)/100
+		Start your threshold with min, the min+the calculated above, and increment by that on each cell. Cell 3: Min + 2((Max-Min)/100)

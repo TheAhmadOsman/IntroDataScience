@@ -1,0 +1,32 @@
+Optimization
+	Solver
+
+Optimization can eiher be for maximizing profit(Maybe minimizing?)
+
+Excel can help when you know the variables to maximize -> Profit
+
+What are the constraints
+	-X: plain sawin
+	-y: quarter
+	-Waste < 10%
+
+---------------------------------------------------------------------
+
+Optimization: Minimize Calories
+
+Constraints
+	Women: at least 1200 calories
+	Men: at least 18800 calories
+
+---------------------------------------------------------------------
+
+Optimization: Dream Team - Soccer
+
+ict_index - maximize index
+
+Constraints
+	Not over 100 million $
+	2 Keepers
+	5 Defenders
+	5 Midfielders
+	3 Forwards
